@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400italic|Poiret+One|Shadows+Into+Light|Inconsolata|Bangers|Indie+Flower|Lobster|Fjalla+One|Oswald");
+.ug-l{
+	font-size:17px !important;
+}
+.ug-lg{
+	font-size:20px !important;
+}
+.ug-2x{
+	font-size:40px !important;
+}
+.ug-3x{
+	font-size:60px !important;
+}
+.ug-4x{
+	font-size:80px !important;
+}
+.ug-5x{
+	font-size:100px !important;
+}
+.ug-s{
+	font-size:15px !important;
+}
+.ug-xs{
+	font-size:10px !important;
+}
+
+
+
+.ug-success{
+color:#65CB67;
+}
+.ug-info{
+color:#4873F6;
+}
+.ug-warning{
+color:#F6E247;
+}
+.ug-danger{
+color:#F02121;
+}
+.flash-over:hover{
+	color:grey;
+	cursor:pointer;
+}
+
+.Oswald{
+font-family: 'Oswald', sans-serif;
+}
+
+.Fjalla{
+font-family: 'Fjalla One', sans-serif;
+}
+.Roboto{
+font-family: 'Roboto Condensed', sans-serif;
+}
+.Poiret{
+font-family: 'Poiret One', sans-serif;
+}
+.Indie {
+font-family: 'Indie Flower', sans-serif;
+}
+.Lobster {
+font-family: 'Lobster', sans-serif;
+}
+.Shadows{
+font-family: 'Shadows Into Light', sans-serif;
+}
+.Inconsolata {
+font-family: 'Inconsolata', sans-serif;
+}
+.Bangers {
+font-family: 'Bangers', sans-serif;
+}
+
+/*####################
+#  Card Deklaration  #
+#####################*/
+.card{	
+	padding:10px;
+	margin-bottom:30px;
+	border-radius:4px;
+	border: 1px;
+	border-style: solid;
+	border-color:#DCDCDC;
+	background:white;
+}
+
+/*card header */
+.card .header{
+	padding:15px 15px 0;
+}
+.card .title{
+	margin: 0;
+    color: #333333;
+    font-weight: 300;
+}
+.card .category{
+	font-size: 14px;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin-bottom: 0px;
+}
+/*card content*/
+.card .content{
+	padding: 15px 15px 5px 20px;
+}
+
+/*card footer*/
+.card .footer{
+	padding: 0;
+	margin-top:15px;
+    background-color: transparent;
+    line-height: 30px;
+}
+.card .footer .legend{
+	padding: 5px 0;
+}
+.card .footer hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+	border-color: #DDDDDD;
+}
+.card .stats{
+	color: #a9a9a9;
+}
+/*
+	Input style
+*/
+.code-src-copy{
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 480px;
+	height: 30px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fff;
+	background-image: none;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	color: #333;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.33;
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.code-src-copy:focus {
+	outline: 0;
+	border-color: #4F8EF7;
+}
+/*
+	/Input style
+*/
+
+/*
++-------------------+
+|										|
+|			Skroll Bar		|
+|	 			 style			|
+|					|
++-------------------+
+*/
+
+/*Dark Theme*/
+.scroll-bar_dark_small::-webkit-scrollbar {
+    width: 10px;
+	background-color:#151515;
+	opacity: 0.5;
+}
+ 
+.scroll-bar_dark_small::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.scroll-bar_dark_small::-webkit-scrollbar-thumb {
+  background-color: #484848;
+  outline: 1px solid slategrey;
+}
+
+
+
+
+
+/*
++-------------------+
+|										|
+| Console-Textarea  |
+|	   		style				|
+|										|
++-------------------+
+*/
+
+.console-output{
+    background-color: #000000;
+    color: #01AF00;
+	
+}
+.console-output::-webkit-scrollbar{
+    width: 10px;
+	background-color:#151515;
+	opacity: 0.5;
+}
+.console-output::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.console-output::-webkit-scrollbar-thumb {
+	background-color: #145D14;
+	outline: 1px solid slategrey;
+}

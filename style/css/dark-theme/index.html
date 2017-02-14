@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://holdirbootstrap.de/examples/theme/ -->
+<html lang="de"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://holdirbootstrap.de/favicon.ico">
+
+    <title>Theme-Vorlage für Bootstrap</title>
+
+    <!-- Bootstrap-CSS -->
+    <link href="./css/ozean-dark-bootstrap.css" rel="stylesheet">
+	
+	<!-- Ugunity Api's -->
+	<link href="https://code.ugunity.com/fonts/ugun-font/style.css" rel="stylesheet" />
+	<link href="https://code.ugunity.com/frameworks/Ugun-Frames/css/ugun.css" rel="stylesheet" />
+
+    <!-- Bootstrap-Theme 
+    <link href="./css/bootstrap-theme.min.css" rel="stylesheet">-->
+
+    <!-- Besondere Stile für diese Vorlage 
+    <link href="./css/theme.css" rel="stylesheet">-->
+
+    <!-- Nur für Testzwecke. Kopiere diese Zeilen nicht in echte Projekte! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./js/ie-emulation-modes-warning.js"></script><style type="text/css"></style>
+
+    <!-- Unterstützung für Media Queries und HTML5-Elemente in IE8 über HTML5 shim und Respond.js -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body role="document">
+
+    <!-- Fixierte Navbar -->
+    <nav class="navbar navbar-default	navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Navigation ein-/ausblenden</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap-Theme</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Start</a></li>
+            <li><a href="#ueber">Über</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown-Menü <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Aktion</a></li>
+                <li><a href="#">Andere Aktion</a></li>
+                <li><a href="#">Irgendwas anderes</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav-Überschrift</li>
+                <li><a href="#">Abgetrennter Link</a></li>
+                <li><a href="#">Noch ein abgetrennter Link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+
+      <!-- Haupt-Jumbotron für eine hauptsächliche Marketing-Botschaft oder einen Aufruf zu einer Aktion -->
+      <div class="jumbotron">
+        <h1>Theme-Beispiel</h1>
+        <p>Dies ist eine Vorlage, die das optionale Theme-Stylesheet vorstellt, das zu Bootstrap dazugehört. Verwende sie als Startpunkt, um etwas einzigartigeres zu erstellen, indem du Dinge hinzufügst oder bearbeitest.</p>
+       </div>
+	   		<div class="jumbotron">
+				<h2 style="text-aling: center">Bootstrap v3.3.6 - OzeanDarkTheme</h2>
+				<input class="code-src-copy" style="width:700px;" type="text" value="https://code.ugunity.com/frameworks/bootstrap-3.3.6-dist/dark-theme/css/ozean-dark-bootstrap.css" onclick="this.select();" readonly="">
+				</br>
+				<input class="code-src-copy" style="width:650px;" type="text" value="https://code.ugunity.com/frameworks/bootstrap-3.3.6-dist/dark-theme/js/bootstrap.min.js" onclick="this.select();" readonly="">
+			</div>
+
+
+      <div class="page-header">
+        <h1>Buttons</h1>
+      </div>
+      <p>
+        <button type="button" class="btn btn-lg btn-default">Standard</button>
+        <button type="button" class="btn btn-lg btn-primary">Primär</button>
+        <button type="button" class="btn btn-lg btn-success">Erfolg</button>
+        <button type="button" class="btn btn-lg btn-info">Info</button>
+        <button type="button" class="btn btn-lg btn-warning">Warnung</button>
+        <button type="button" class="btn btn-lg btn-danger">Gefahr</button>
+        <button type="button" class="btn btn-lg btn-link">Link</button>
+      </p>
+      <p>
+        <button type="button" class="btn btn-default">Standard</button>
+        <button type="button" class="btn btn-primary">Primär</button>
+        <button type="button" class="btn btn-success">Erfolg</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warnung</button>
+        <button type="button" class="btn btn-danger">Gefahr</button>
+        <button type="button" class="btn btn-link">Link</button>
+      </p>
+      <p>
+        <button type="button" class="btn btn-sm btn-default">Standard</button>
+        <button type="button" class="btn btn-sm btn-primary">Primär</button>
+        <button type="button" class="btn btn-sm btn-success">Erfolg</button>
+        <button type="button" class="btn btn-sm btn-info">Info</button>
+        <button type="button" class="btn btn-sm btn-warning">Warnung</button>
+        <button type="button" class="btn btn-sm btn-danger">Gefahr</button>
+        <button type="button" class="btn btn-sm btn-link">Link</button>
+      </p>
+      <p>
+        <button type="button" class="btn btn-xs btn-default">Standard</button>
+        <button type="button" class="btn btn-xs btn-primary">Primär</button>
+        <button type="button" class="btn btn-xs btn-success">Erfolg</button>
+        <button type="button" class="btn btn-xs btn-info">Info</button>
+        <button type="button" class="btn btn-xs btn-warning">Warnung</button>
+        <button type="button" class="btn btn-xs btn-danger">Gefahr</button>
+        <button type="button" class="btn btn-xs btn-link">Link</button>
+      </p>
+
+      <div class="page-header">
+        <h1>Headers</h1>
+      </div>
+      <p>
+      <h1>h1. Bootstrap-Überschrift <small>Halbfett 36px</small></h1>
+      <h2>h2. Bootstrap-Überschrift <small>Halbfett 30px</small></h2>
+      <h3>h3. Bootstrap-Überschrift <small>Halbfett 24px</small></h3>
+      <h4>h4. Bootstrap-Überschrift <small>Halbfett 18px</small></h4>
+      <h5>h5. Bootstrap-Überschrift <small>Halbfett 14px</small></h5>
+      <h6>h6. Bootstrap-Überschrift <small>Halbfett 12px</small></h6>
+      </p>
+      
+
+      <div class="page-header">
+        <h1>Tabellen</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Vorname</th>
+                <th>Nachname</th>
+                <th>Benutzername</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-6">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Vorname</th>
+                <th>Nachname</th>
+                <th>Benutzername</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Vorname</th>
+                <th>Nachname</th>
+                <th>Benutzername</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@TwBootstrap</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-6">
+          <table class="table table-condensed">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Vorname</th>
+                <th>Nachname</th>
+                <th>Benutzername</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-6">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Vorname</th>
+                <th>Nachname</th>
+                <th>Benutzername</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+      <div class="page-header">
+        <h1>Vorschaubilder</h1>
+      </div>
+      <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzIwMHgyMDAKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTNhMDA3NmE3NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1M2EwMDc2YTc1Ij48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9Ijc1LjUiIHk9IjEwNC41Ij4yMDB4MjAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true" style="width: 200px; height: 200px;">
+
+
+      <div class="page-header">
+        <h1>Labels</h1>
+      </div>
+      <h1>
+        <span class="label label-default">Standard</span>
+        <span class="label label-primary">Primär</span>
+        <span class="label label-success">Erfolg</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warnung</span>
+        <span class="label label-danger">Gefahr</span>
+      </h1>
+      <h2>
+        <span class="label label-default">Standard</span>
+        <span class="label label-primary">Primär</span>
+        <span class="label label-success">Erfolg</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warnung</span>
+        <span class="label label-danger">Gefahr</span>
+      </h2>
+      <h3>
+        <span class="label label-default">Standard</span>
+        <span class="label label-primary">Primär</span>
+        <span class="label label-success">Erfolg</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warnung</span>
+        <span class="label label-danger">Gefahr</span>
+      </h3>
+      <h4>
+        <span class="label label-default">Standard</span>
+        <span class="label label-primary">Primär</span>
+        <span class="label label-success">Erfolg</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warnung</span>
+        <span class="label label-danger">Gefahr</span>
+      </h4>
+      <h5>
+        <span class="label label-default">Standard</span>
+        <span class="label label-primary">Primär</span>
+        <span class="label label-success">Erfolg</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warnung</span>
+        <span class="label label-danger">Gefahr</span>
+      </h5>
+      <h6>
+        <span class="label label-default">Standard</span>
+        <span class="label label-primary">Primär</span>
+        <span class="label label-success">Erfolg</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warnung</span>
+        <span class="label label-danger">Gefahr</span>
+      </h6>
+      <p>
+        <span class="label label-default">Standard</span>
+        <span class="label label-primary">Primär</span>
+        <span class="label label-success">Erfolg</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warnung</span>
+        <span class="label label-danger">Gefahr</span>
+      </p>
+
+
+      <div class="page-header">
+        <h1>Badges</h1>
+      </div>
+      <p>
+        <a href="#">Posteingang <span class="badge">42</span></a>
+      </p>
+      <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="active"><a href="#">Start <span class="badge">42</span></a></li>
+        <li role="presentation"><a href="#">Profil</a></li>
+        <li role="presentation"><a href="#">Nachrichten <span class="badge">3</span></a></li>
+      </ul>
+
+
+      <div class="page-header">
+        <h1>Dropdown-Menüs</h1>
+      </div>
+      <div class="dropdown theme-dropdown clearfix">
+        <a id="dropdownMenu1" href="#" class="sr-only dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown-Menü <span class="caret"></span></a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li class="active"><a href="#">Aktion</a></li>
+          <li><a href="#">Andere Aktion</a></li>
+          <li><a href="#">Irgendwas anderes</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Abgetrennter Link</a></li>
+        </ul>
+      </div>
+
+
+      <div class="page-header">
+        <h1>Navs</h1>
+      </div>
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="active"><a href="#">Start</a></li>
+        <li><a href="#">Profil</a></li>
+        <li><a href="#">Nachrichten</a></li>
+      </ul>
+      <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="active"><a href="#">Start</a></li>
+        <li role="presentation"><a href="#">Profil</a></li>
+        <li role="presentation"><a href="#">Nachrichten</a></li>
+      </ul>
+
+
+      <div class="page-header">
+        <h1>Navbars</h1>
+      </div>
+
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Navigation ein-/ausblenden</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Projekt-Titel</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Start</a></li>
+              <li><a href="#ueber">Über</a></li>
+              <li><a href="#kontakt">Kontakt</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown-Menü <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Aktion</a></li>
+                  <li><a href="#">Andere Aktion</a></li>
+                  <li><a href="#">Irgendwas anderes</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav-Überschrift</li>
+                  <li><a href="#">Abgetrennter Link</a></li>
+                  <li><a href="#">Noch ein abgetrennter Link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Navigation ein-/ausblenden</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Projekt-Titel</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Start</a></li>
+              <li><a href="#ueber">Über</a></li>
+              <li><a href="#kontakt">Kontakt</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown-Menü <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Aktion</a></li>
+                  <li><a href="#">Andere Aktion</a></li>
+                  <li><a href="#">Irgendwas anderes</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav-Überschrift</li>
+                  <li><a href="#">Abgetrennter Link</a></li>
+                  <li><a href="#">Noch ein abgetrennter Link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+
+      <div class="page-header">
+        <h1>Alerts</h1>
+      </div>
+      <div class="alert alert-success" role="alert">
+        <strong>Sehr gut!</strong> Du hast erfolgreich diesen wichtigen Hinweis gelesen.
+      </div>
+      <div class="alert alert-info" role="alert">
+        <strong>Aufgepasst!</strong> Dieser Warnhinweis erfordert Aufmerksamkeit, ist aber nicht super-wichtig.
+      </div>
+      <div class="alert alert-warning" role="alert">
+        <strong>Warnung!</strong> Du siehst blass aus, ist alles in Ordnung?
+      </div>
+      <div class="alert alert-danger" role="alert">
+        <strong>Oh nein!</strong> Veränder ein paar Sachen und versuch es dann noch einmal.
+      </div>
+
+
+      <div class="page-header">
+        <h1>Progress bars</h1>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% abgeschlossen</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% abgeschlossen (Erfolg)</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% abgeschlossen</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% abgeschlossen (Warnung)</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% abgeschlossen (Gefahr)</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% abgeschlossen</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% abgeschlossen (Erfolg)</span></div>
+        <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% abgeschlossen (Warnung)</span></div>
+        <div class="progress-bar progress-bar-danger" style="width: 10%"><span class="sr-only">10% abgeschlossen (Gefahr)</span></div>
+      </div>
+
+
+      <div class="page-header">
+        <h1>List groups</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              Cras justo odio
+            </a>
+            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item">Morbi leo risus</a>
+            <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+            <a href="#" class="list-group-item">Vestibulum at eros</a>
+          </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">Listengruppen-Eintragsüberschrift</h4>
+              <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Listengruppen-Eintragsüberschrift</h4>
+              <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Listengruppen-Eintragsüberschrift</h4>
+              <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+            </a>
+          </div>
+        </div><!-- /.col-sm-4 -->
+      </div>
+      
+      
+      
+      <div class="page-header">
+        <h1>Inputs</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <form class="form-inline">
+            <div class="form-group">
+              <label for="beispielFeldName2">Name</label>
+              <input type="text" class="form-control" id="beispielFeldName2" placeholder="Marie Mustermann">
+            </div>
+            <div class="form-group">
+              <label for="beispielFeldEmail2">Email</label>
+              <input type="email" class="form-control" id="beispielFeldEmail2" placeholder="m.mustermann@beispiel.de">
+            </div>
+            <button type="submit" class="btn btn-default">Einladung senden</button>
+          </form>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="eingabefeldEmail3" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="eingabefeldEmail3" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="eingabefeldPasswort3" class="col-sm-2 control-label">Passwort</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="eingabefeldPasswort3" placeholder="Passwort">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Anmeldung speichern
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Anmelden</button>
+              </div>
+            </div>
+          </form>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+          <textarea class="form-control" rows="3"></textarea>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-md-4">
+          <form class="form-inline">
+            <div class="form-group">
+              <label class="sr-only" for="beispielFeldSumme">Summe (in Euro)</label>
+              <div class="input-group">
+                <div class="input-group-addon">€</div>
+                <input type="text" class="form-control" id="beispielFeldSumme" placeholder="Summe">
+                <div class="input-group-addon">,00</div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Geld senden</button>
+          </form>
+        </div>
+      </div>
+
+
+      <div class="page-header">
+        <h1>Panels</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel-Titel</h3>
+            </div>
+            <div class="panel-body">
+              Panel-Inhalt
+            </div>
+          </div>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel-Titel</h3>
+            </div>
+            <div class="panel-body">
+              Panel-Inhalt
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel-Titel</h3>
+            </div>
+            <div class="panel-body">
+              Panel-Inhalt
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel-Titel</h3>
+            </div>
+            <div class="panel-body">
+              Panel-Inhalt
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel-Titel</h3>
+            </div>
+            <div class="panel-body">
+              Panel-Inhalt
+            </div>
+          </div>
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel-Titel</h3>
+            </div>
+            <div class="panel-body">
+              Panel-Inhalt
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->
+      </div>
+
+
+      <div class="page-header">
+        <h1>Wells</h1>
+      </div>
+      <div class="well">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+      </div>
+
+
+      <div class="page-header">
+        <h1>Karussell</h1>
+      </div>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item">
+            <img data-src="holder.js/1140x500/auto/#777:#555/text:Erste Folie" alt="Erste Folie [1140x500]" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTE0MCIgaGVpZ2h0PSI1MDAiIHZpZXdCb3g9IjAgMCAxMTQwIDUwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvMTE0MHg1MDAvYXV0by8jNzc3OiM1NTUvdGV4dDpFcnN0ZSBGb2xpZQpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1M2EwMDc5ZWFkIHRleHQgeyBmaWxsOiM1NTU7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6NTdwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTUzYTAwNzllYWQiPjxyZWN0IHdpZHRoPSIxMTQwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyIvPjxnPjx0ZXh0IHg9IjM3NS43MTg3NSIgeT0iMjc1LjUiPkVyc3RlIEZvbGllPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
+          </div>
+          <div class="item">
+            <img data-src="holder.js/1140x500/auto/#666:#444/text:Zweite Folie" alt="Zweite Folie [1140x500]" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTE0MCIgaGVpZ2h0PSI1MDAiIHZpZXdCb3g9IjAgMCAxMTQwIDUwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvMTE0MHg1MDAvYXV0by8jNjY2OiM0NDQvdGV4dDpad2VpdGUgRm9saWUKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTNhMDA3YjY0ZSB0ZXh0IHsgZmlsbDojNDQ0O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjU3cHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1M2EwMDdiNjRlIj48cmVjdCB3aWR0aD0iMTE0MCIgaGVpZ2h0PSI1MDAiIGZpbGw9IiM2NjYiLz48Zz48dGV4dCB4PSIzNTIuNTIzNDM3NSIgeT0iMjc1LjUiPlp3ZWl0ZSBGb2xpZTwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true">
+          </div>
+          <div class="item active">
+            <img data-src="holder.js/1140x500/auto/#555:#333/text:Dritte Folie" alt="Dritte Folie [1140x500]" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTE0MCIgaGVpZ2h0PSI1MDAiIHZpZXdCb3g9IjAgMCAxMTQwIDUwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvMTE0MHg1MDAvYXV0by8jNTU1OiMzMzMvdGV4dDpEcml0dGUgRm9saWUKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTNhMDA3NThkZiB0ZXh0IHsgZmlsbDojMzMzO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjU3cHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1M2EwMDc1OGRmIj48cmVjdCB3aWR0aD0iMTE0MCIgaGVpZ2h0PSI1MDAiIGZpbGw9IiM1NTUiLz48Zz48dGV4dCB4PSIzNzEuNTM5MDYyNSIgeT0iMjc1LjUiPkRyaXR0ZSBGb2xpZTwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true">
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Zurück</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Weiter</span>
+        </a>
+      </div>
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap-JavaScript
+    ================================================== -->
+    <!-- Am Ende des Dokuments platziert, damit Seiten schneller laden -->
+    <script src="https://code.ugunity.com/frameworks/bootstrap-3.3.6-dist/dark-theme/js/jquery.min.js"></script>
+    <script src="https://code.ugunity.com/frameworks/bootstrap-3.3.6-dist/dark-theme/js/bootstrap.min.js"></script>
+    <script src="https://code.ugunity.com/frameworks/bootstrap-3.3.6-dist/dark-theme/js/docs.min.js"></script>
+    <!-- IE10-Anzeigefenster-Hack für Fehler auf Surface und Desktop-Windows-8 -->
+    <script src="https://code.ugunity.com/frameworks/bootstrap-3.3.6-dist/dark-theme/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" title="" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1458678708477">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=holdirbootstrap.de%2C%2F%2Fholdirbootstrap.de%2Chttp%3A%2F%2Fholdirbootstrap.de">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1458678708477" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=holdirbootstrap.de%2C%2F%2Fholdirbootstrap.de%2Chttp%3A%2F%2Fholdirbootstrap.de" scale="exactfit">                </object></div><svg xmlns="http://www.w3.org/2000/svg" width="1140" height="500" viewBox="0 0 1140 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="57" style="font-weight:bold;font-size:57pt;font-family:Arial, Helvetica, Open Sans, sans-serif">DritteFolie</text></svg></body></html>

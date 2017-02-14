@@ -1,0 +1,43 @@
+.help-icon{
+	float: right
+}
+.main-content{
+	margin-top: 60px;
+}
+
+.section{
+
+	margin-top: 40px;
+	
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	border-radius: 2px;
+	border-width: 1px;
+	border-color: #383838;
+	border-style: solid;
+
+}
+
+.text-areas{
+	
+	background-color: #2e2e2e;
+	
+	border-radius: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-color: #555555;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+
+.form-group-right{
+	width: 230px;
+}
+.help-icon{
+	float: right;
+	margin-top: 7px;
+}
