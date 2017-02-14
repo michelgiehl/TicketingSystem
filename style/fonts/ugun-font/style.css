@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Ugunity-Font';
+    src:    url('fonts/Ugunity-Font.eot?d36kit');
+    src:    url('fonts/Ugunity-Font.eot?d36kit#iefix') format('embedded-opentype'),
+        url('fonts/Ugunity-Font.ttf?d36kit') format('truetype'),
+        url('fonts/Ugunity-Font.woff?d36kit') format('woff'),
+        url('fonts/Ugunity-Font.svg?d36kit#Ugunity-Font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ugun {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Ugunity-Font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.apache-icon:before {
+    content: "\e908";
+}
+.nginx-icon:before {
+    content: "\e909";
+}
+.anon-logo:before {
+    content: "\e900";
+}
+.ereboss-icon:before {
+    content: "\e901";
+}
+.ereboss-logo:before {
+    content: "\e902";
+}
+.freedom-fighters:before {
+    content: "\e903";
+}
+.molo-throw:before {
+    content: "\e904";
+}
+.qrcode-ereboss:before {
+    content: "\e905";
+}
+.ts-icon:before {
+    content: "\e906";
+}
+.ts-icon-inv:before {
+    content: "\e907";
+}
+
